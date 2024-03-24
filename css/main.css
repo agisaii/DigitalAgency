@@ -217,4 +217,30 @@ body {
 }
 .hero__info {
   max-width: 540px;
+}
+
+.companies {
+  padding: 53px 0;
+}
+.companies__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.companies__info {
+  color: #667085;
+  font-weight: 300;
+  margin: 0px 0px 16px 0px;
+}
+.companies__logos {
+  display: flex;
+  align-items: center;
+  padding: 19px 24px;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+
+.logos > *:not(:last-child) {
+  margin: 0px 115px 0px 0px;
 }/*# sourceMappingURL=main.css.map */

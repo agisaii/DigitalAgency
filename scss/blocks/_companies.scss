@@ -1,0 +1,31 @@
+.companies {
+    padding: 53px 0;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__info {
+        color: #667085;
+        font-weight: 300;
+        margin: 0px 0px 16px 0px;
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        padding: 19px 24px;
+        background-color: $bgc-color;
+        border-radius: 8px;
+    }
+}
+.logos {
+    & > *:not(:last-child) {
+        margin: 0px 115px 0px 0px;
+    }
+    &-logo {
+    }
+}
