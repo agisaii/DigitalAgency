@@ -1,0 +1,39 @@
+.block {
+    &-title {
+        font-size: 64px;
+        font-weight: 700;
+        &:not(:last-child) {
+            margin: 0px 0px 24px 0px;
+        }
+    }
+    &-desc {
+        font-weight: 400;
+        line-height: 27.5px;
+    }
+    &-button-link {
+        display: inline-block;
+        margin: 39px 0px 0px 0px;
+    }
+    &-arrow-link {
+    }
+}
+
+.button {
+    min-height: 28px;
+    color: white;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-transform: uppercase;
+
+    border-radius: 8px;
+    background: $main-color;
+    padding: 10px 31px;
+
+    &:hover,
+    &:focus {
+        background-color: $main-color-hover;
+    }
+    &:active {
+        background-color: $main-color-active;
+    }
+}
